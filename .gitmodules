@@ -40,3 +40,6 @@
 [submodule "nvim/core/opt/playground"]
 	path = nvim/core/opt/playground
 	url = https://github.com/nvim-treesitter/playground
+[submodule "nvim/core/start/nvim-lspconfig"]
+	path = nvim/core/start/nvim-lspconfig
+	url = https://github.com/neovim/nvim-lspconfig
