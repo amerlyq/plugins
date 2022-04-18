@@ -1,3 +1,33 @@
 [submodule "nvim/base/start/impatient.nvim"]
 	path = nvim/base/start/impatient.nvim
 	url = https://github.com/lewis6991/impatient.nvim
+[submodule "nvim/base/start/nvim-solarized-lua"]
+	path = nvim/base/start/nvim-solarized-lua
+	url = https://github.com/ishan9299/nvim-solarized-lua.git
+[submodule "nvim/base/start/plenary.nvim"]
+	path = nvim/base/start/plenary.nvim
+	url = https://github.com/nvim-lua/plenary.nvim
+[submodule "nvim/core/start/nvim-cmp"]
+	path = nvim/core/start/nvim-cmp
+	url = https://github.com/hrsh7th/nvim-cmp
+[submodule "nvim/core/start/cmp-nvim-lsp"]
+	path = nvim/core/start/cmp-nvim-lsp
+	url = https://github.com/hrsh7th/cmp-nvim-lsp
+[submodule "nvim/core/start/cmp_luasnip"]
+	path = nvim/core/start/cmp_luasnip
+	url = https://github.com/saadparwaiz1/cmp_luasnip
+[submodule "nvim/extra/start/vim-fugitive"]
+	path = nvim/extra/start/vim-fugitive
+	url = https://github.com/tpope/vim-fugitive
+[submodule "nvim/try/start/telescope.nvim"]
+	path = nvim/try/start/telescope.nvim
+	url = https://github.com/nvim-telescope/telescope.nvim
+[submodule "nvim/try/start/telescope-fzf-native.nvim"]
+	path = nvim/try/start/telescope-fzf-native.nvim
+	url = https://github.com/nvim-telescope/telescope-fzf-native.nvim
+[submodule "nvim/extra/start/indent-blankline.nvim"]
+	path = nvim/extra/start/indent-blankline.nvim
+	url = https://github.com/lukas-reineke/indent-blankline.nvim
+[submodule "nvim/base/start/lualine.nvim"]
+	path = nvim/base/start/lualine.nvim
+	url = https://github.com/nvim-lualine/lualine.nvim
