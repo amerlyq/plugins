@@ -31,3 +31,12 @@
 [submodule "nvim/base/start/lualine.nvim"]
 	path = nvim/base/start/lualine.nvim
 	url = https://github.com/nvim-lualine/lualine.nvim
+[submodule "nvim/core/start/nvim-treesitter"]
+	path = nvim/core/start/nvim-treesitter
+	url = https://github.com/nvim-treesitter/nvim-treesitter
+[submodule "nvim/core/start/nvim-treesitter-textobjects"]
+	path = nvim/core/start/nvim-treesitter-textobjects
+	url = https://github.com/nvim-treesitter/nvim-treesitter-textobjects
+[submodule "nvim/core/opt/playground"]
+	path = nvim/core/opt/playground
+	url = https://github.com/nvim-treesitter/playground
