@@ -1,0 +1,3 @@
+[submodule "nvim/base/start/impatient.nvim"]
+	path = nvim/base/start/impatient.nvim
+	url = https://github.com/lewis6991/impatient.nvim
