@@ -43,3 +43,6 @@
 [submodule "nvim/core/start/nvim-lspconfig"]
 	path = nvim/core/start/nvim-lspconfig
 	url = https://github.com/neovim/nvim-lspconfig
+[submodule "nvim/core/start/LuaSnip"]
+	path = nvim/core/start/LuaSnip
+	url = https://github.com/L3MON4D3/LuaSnip
