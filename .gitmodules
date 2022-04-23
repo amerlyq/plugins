@@ -46,3 +46,6 @@
 [submodule "nvim/core/start/LuaSnip"]
 	path = nvim/core/start/LuaSnip
 	url = https://github.com/L3MON4D3/LuaSnip
+[submodule "nvim/core/start/jupyter-vim"]
+	path = nvim/core/start/jupyter-vim
+	url = https://github.com/jupyter-vim/jupyter-vim
