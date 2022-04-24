@@ -55,3 +55,18 @@
 [submodule "nvim/core/start/rnvimr"]
 	path = nvim/core/start/rnvimr
 	url = https://github.com/kevinhwang91/rnvimr
+[submodule "nvim/extra/start/cmp-buffer"]
+	path = nvim/extra/start/cmp-buffer
+	url = https://github.com/hrsh7th/cmp-buffer
+[submodule "nvim/extra/start/cmp-calc"]
+	path = nvim/extra/start/cmp-calc
+	url = https://github.com/hrsh7th/cmp-calc
+[submodule "nvim/extra/start/cmp-digraphs"]
+	path = nvim/extra/start/cmp-digraphs
+	url = https://github.com/dmitmel/cmp-digraphs
+[submodule "nvim/extra/start/cmp-path"]
+	path = nvim/extra/start/cmp-path
+	url = https://github.com/hrsh7th/cmp-path
+[submodule "nvim/extra/start/cmp-cmdline"]
+	path = nvim/extra/start/cmp-cmdline
+	url = https://github.com/hrsh7th/cmp-cmdline
