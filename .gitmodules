@@ -73,3 +73,12 @@
 [submodule "nvim/extra/start/lualine-lsp-progress"]
 	path = nvim/extra/start/lualine-lsp-progress
 	url = https://github.com/arkav/lualine-lsp-progress
+[submodule "nvim/extra/start/cmp-rg"]
+	path = nvim/extra/start/cmp-rg
+	url = https://github.com/lukas-reineke/cmp-rg
+[submodule "nvim/extra/start/cmp-fuzzy-path"]
+	path = nvim/extra/start/cmp-fuzzy-path
+	url = https://github.com/tzachar/cmp-fuzzy-path
+[submodule "nvim/extra/start/fuzzy.nvim"]
+	path = nvim/extra/start/fuzzy.nvim
+	url = https://github.com/tzachar/fuzzy.nvim
