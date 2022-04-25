@@ -70,3 +70,6 @@
 [submodule "nvim/extra/start/cmp-cmdline"]
 	path = nvim/extra/start/cmp-cmdline
 	url = https://github.com/hrsh7th/cmp-cmdline
+[submodule "nvim/extra/start/lualine-lsp-progress"]
+	path = nvim/extra/start/lualine-lsp-progress
+	url = https://github.com/arkav/lualine-lsp-progress
