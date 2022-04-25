@@ -85,3 +85,6 @@
 [submodule "nvim/extra/start/cmp-fuzzy-buffer"]
 	path = nvim/extra/start/cmp-fuzzy-buffer
 	url = https://github.com/tzachar/cmp-fuzzy-buffer
+[submodule "nvim/extra/start/gitsigns.nvim"]
+	path = nvim/extra/start/gitsigns.nvim
+	url = https://github.com/lewis6991/gitsigns.nvim
