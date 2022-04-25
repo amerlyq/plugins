@@ -88,3 +88,6 @@
 [submodule "nvim/extra/start/gitsigns.nvim"]
 	path = nvim/extra/start/gitsigns.nvim
 	url = https://github.com/lewis6991/gitsigns.nvim
+[submodule "nvim/extra/start/trouble.nvim"]
+	path = nvim/extra/start/trouble.nvim
+	url = https://github.com/folke/trouble.nvim
