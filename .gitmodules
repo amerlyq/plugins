@@ -97,3 +97,6 @@
 [submodule "nvim/core/start/nvim-ts-context-commentstring"]
 	path = nvim/core/start/nvim-ts-context-commentstring
 	url = https://github.com/JoosepAlviste/nvim-ts-context-commentstring
+[submodule "nvim/try/start/tokyonight.nvim"]
+	path = nvim/try/start/tokyonight.nvim
+	url = https://github.com/folke/tokyonight.nvim
