@@ -91,3 +91,9 @@
 [submodule "nvim/extra/start/trouble.nvim"]
 	path = nvim/extra/start/trouble.nvim
 	url = https://github.com/folke/trouble.nvim
+[submodule "nvim/core/start/nvim-comment"]
+	path = nvim/core/start/nvim-comment
+	url = https://github.com/terrortylor/nvim-comment
+[submodule "nvim/core/start/nvim-ts-context-commentstring"]
+	path = nvim/core/start/nvim-ts-context-commentstring
+	url = https://github.com/JoosepAlviste/nvim-ts-context-commentstring
