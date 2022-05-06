@@ -100,3 +100,6 @@
 [submodule "nvim/try/start/tokyonight.nvim"]
 	path = nvim/try/start/tokyonight.nvim
 	url = https://github.com/folke/tokyonight.nvim
+[submodule "nvim/fncs/opt/nvim-colorizer.lua"]
+	path = nvim/fncs/opt/nvim-colorizer.lua
+	url = https://github.com/norcalli/nvim-colorizer.lua
