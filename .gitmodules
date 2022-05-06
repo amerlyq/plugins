@@ -8,13 +8,13 @@
 	path = nvim/fncs/start/plenary.nvim
 	url = https://github.com/nvim-lua/plenary.nvim
 [submodule "nvim/core/start/nvim-cmp"]
-	path = nvim/pure/opt/nvim-cmp
+	path = nvim/cmp/opt/nvim-cmp
 	url = https://github.com/hrsh7th/nvim-cmp
 [submodule "nvim/core/start/cmp-nvim-lsp"]
-	path = nvim/fncs/start/cmp-nvim-lsp
+	path = nvim/cmp/opt/cmp-nvim-lsp
 	url = https://github.com/hrsh7th/cmp-nvim-lsp
 [submodule "nvim/core/start/cmp_luasnip"]
-	path = nvim/fncs/start/cmp_luasnip
+	path = nvim/cmp/opt/cmp_luasnip
 	url = https://github.com/saadparwaiz1/cmp_luasnip
 [submodule "nvim/extra/start/vim-fugitive"]
 	path = nvim/extra/start/vim-fugitive
@@ -44,7 +44,7 @@
 	path = nvim/pure/opt/nvim-lspconfig
 	url = https://github.com/neovim/nvim-lspconfig
 [submodule "nvim/core/start/LuaSnip"]
-	path = nvim/pure/opt/LuaSnip
+	path = nvim/cmp/opt/LuaSnip
 	url = https://github.com/L3MON4D3/LuaSnip
 [submodule "nvim/core/start/jupyter-vim"]
 	path = nvim/core/start/jupyter-vim
