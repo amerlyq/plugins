@@ -1,0 +1,1 @@
+../../../fncs/opt/nvim-colorizer.lua
