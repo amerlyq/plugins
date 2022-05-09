@@ -1,105 +1,105 @@
-[submodule "nvim/base/start/impatient.nvim"]
+[submodule "nvim/all/impatient.nvim"]
 	path = nvim/all/impatient.nvim
 	url = https://github.com/lewis6991/impatient.nvim
-[submodule "nvim/base/start/nvim-solarized-lua"]
+[submodule "nvim/all/nvim-solarized-lua"]
 	path = nvim/all/_obsol/nvim-solarized-lua
 	url = https://github.com/ishan9299/nvim-solarized-lua.git
-[submodule "nvim/base/start/plenary.nvim"]
+[submodule "nvim/all/plenary.nvim"]
 	path = nvim/all/plenary.nvim
 	url = https://github.com/nvim-lua/plenary.nvim
-[submodule "nvim/core/start/nvim-cmp"]
+[submodule "nvim/all/nvim-cmp"]
 	path = nvim/all/nvim-cmp
 	url = https://github.com/hrsh7th/nvim-cmp
-[submodule "nvim/core/start/cmp-nvim-lsp"]
+[submodule "nvim/all/cmp-nvim-lsp"]
 	path = nvim/all/cmp-nvim-lsp
 	url = https://github.com/hrsh7th/cmp-nvim-lsp
-[submodule "nvim/core/start/cmp_luasnip"]
+[submodule "nvim/all/cmp_luasnip"]
 	path = nvim/all/cmp_luasnip
 	url = https://github.com/saadparwaiz1/cmp_luasnip
-[submodule "nvim/extra/start/vim-fugitive"]
+[submodule "nvim/all/vim-fugitive"]
 	path = nvim/all/vim-fugitive
 	url = https://github.com/tpope/vim-fugitive
-[submodule "nvim/try/start/telescope.nvim"]
+[submodule "nvim/all/telescope.nvim"]
 	path = nvim/all/telescope.nvim
 	url = https://github.com/nvim-telescope/telescope.nvim
-[submodule "nvim/try/start/telescope-fzf-native.nvim"]
+[submodule "nvim/all/telescope-fzf-native.nvim"]
 	path = nvim/all/telescope-fzf-native.nvim
 	url = https://github.com/nvim-telescope/telescope-fzf-native.nvim
-[submodule "nvim/extra/start/indent-blankline.nvim"]
+[submodule "nvim/all/indent-blankline.nvim"]
 	path = nvim/all/indent-blankline.nvim
 	url = https://github.com/lukas-reineke/indent-blankline.nvim
-[submodule "nvim/base/start/lualine.nvim"]
+[submodule "nvim/all/lualine.nvim"]
 	path = nvim/all/_obsol/lualine.nvim
 	url = https://github.com/nvim-lualine/lualine.nvim
-[submodule "nvim/core/start/nvim-treesitter"]
+[submodule "nvim/all/nvim-treesitter"]
 	path = nvim/all/nvim-treesitter
 	url = https://github.com/nvim-treesitter/nvim-treesitter
-[submodule "nvim/core/start/nvim-treesitter-textobjects"]
+[submodule "nvim/all/nvim-treesitter-textobjects"]
 	path = nvim/all/nvim-treesitter-textobjects
 	url = https://github.com/nvim-treesitter/nvim-treesitter-textobjects
-[submodule "nvim/core/opt/playground"]
+[submodule "nvim/all/playground"]
 	path = nvim/all/playground
 	url = https://github.com/nvim-treesitter/playground
-[submodule "nvim/core/start/nvim-lspconfig"]
+[submodule "nvim/all/nvim-lspconfig"]
 	path = nvim/all/nvim-lspconfig
 	url = https://github.com/neovim/nvim-lspconfig
-[submodule "nvim/core/start/LuaSnip"]
+[submodule "nvim/all/LuaSnip"]
 	path = nvim/all/LuaSnip
 	url = https://github.com/L3MON4D3/LuaSnip
-[submodule "nvim/core/start/jupyter-vim"]
+[submodule "nvim/all/jupyter-vim"]
 	path = nvim/all/jupyter-vim
 	url = https://github.com/jupyter-vim/jupyter-vim
-[submodule "nvim/extra/start/which-key.nvim"]
+[submodule "nvim/all/which-key.nvim"]
 	path = nvim/all/which-key.nvim
 	url = https://github.com/folke/which-key.nvim
-[submodule "nvim/core/start/rnvimr"]
+[submodule "nvim/all/rnvimr"]
 	path = nvim/all/rnvimr
 	url = https://github.com/kevinhwang91/rnvimr
-[submodule "nvim/extra/start/cmp-buffer"]
+[submodule "nvim/all/cmp-buffer"]
 	path = nvim/all/cmp-buffer
 	url = https://github.com/hrsh7th/cmp-buffer
-[submodule "nvim/extra/start/cmp-calc"]
+[submodule "nvim/all/cmp-calc"]
 	path = nvim/all/cmp-calc
 	url = https://github.com/hrsh7th/cmp-calc
-[submodule "nvim/extra/start/cmp-digraphs"]
+[submodule "nvim/all/cmp-digraphs"]
 	path = nvim/all/cmp-digraphs
 	url = https://github.com/dmitmel/cmp-digraphs
-[submodule "nvim/extra/start/cmp-path"]
+[submodule "nvim/all/cmp-path"]
 	path = nvim/all/cmp-path
 	url = https://github.com/hrsh7th/cmp-path
-[submodule "nvim/extra/start/cmp-cmdline"]
+[submodule "nvim/all/cmp-cmdline"]
 	path = nvim/all/cmp-cmdline
 	url = https://github.com/hrsh7th/cmp-cmdline
-[submodule "nvim/extra/start/lualine-lsp-progress"]
+[submodule "nvim/all/lualine-lsp-progress"]
 	path = nvim/all/_obsol/lualine-lsp-progress
 	url = https://github.com/arkav/lualine-lsp-progress
-[submodule "nvim/extra/start/cmp-rg"]
+[submodule "nvim/all/cmp-rg"]
 	path = nvim/all/cmp-rg
 	url = https://github.com/lukas-reineke/cmp-rg
-[submodule "nvim/extra/start/cmp-fuzzy-path"]
+[submodule "nvim/all/cmp-fuzzy-path"]
 	path = nvim/all/cmp-fuzzy-path
 	url = https://github.com/tzachar/cmp-fuzzy-path
-[submodule "nvim/extra/start/fuzzy.nvim"]
+[submodule "nvim/all/fuzzy.nvim"]
 	path = nvim/all/fuzzy.nvim
 	url = https://github.com/tzachar/fuzzy.nvim
-[submodule "nvim/extra/start/cmp-fuzzy-buffer"]
+[submodule "nvim/all/cmp-fuzzy-buffer"]
 	path = nvim/all/cmp-fuzzy-buffer
 	url = https://github.com/tzachar/cmp-fuzzy-buffer
-[submodule "nvim/extra/start/gitsigns.nvim"]
+[submodule "nvim/all/gitsigns.nvim"]
 	path = nvim/all/gitsigns.nvim
 	url = https://github.com/lewis6991/gitsigns.nvim
-[submodule "nvim/extra/start/trouble.nvim"]
+[submodule "nvim/all/trouble.nvim"]
 	path = nvim/all/trouble.nvim
 	url = https://github.com/folke/trouble.nvim
-[submodule "nvim/core/start/nvim-comment"]
+[submodule "nvim/all/nvim-comment"]
 	path = nvim/all/nvim-comment
 	url = https://github.com/terrortylor/nvim-comment
-[submodule "nvim/core/start/nvim-ts-context-commentstring"]
+[submodule "nvim/all/nvim-ts-context-commentstring"]
 	path = nvim/all/nvim-ts-context-commentstring
 	url = https://github.com/JoosepAlviste/nvim-ts-context-commentstring
-[submodule "nvim/try/start/tokyonight.nvim"]
+[submodule "nvim/all/tokyonight.nvim"]
 	path = nvim/all/tokyonight.nvim
 	url = https://github.com/folke/tokyonight.nvim
-[submodule "nvim/fncs/opt/nvim-colorizer.lua"]
+[submodule "nvim/all/nvim-colorizer.lua"]
 	path = nvim/all/nvim-colorizer.lua
 	url = https://github.com/norcalli/nvim-colorizer.lua
