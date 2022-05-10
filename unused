@@ -1,0 +1,35 @@
+#!/usr/bin/env -S python -B
+#%SUMMARY: ⌇⡢⡺⢕⣔
+#%USAGE: $ ./$0
+
+import os
+from pathlib import Path
+from typing import Iterator
+
+
+def collect_symlinks(root: Path | os.DirEntry) -> Iterator[Path]:
+    stack: list[os.DirEntry | Path] = [root]
+    while stack:
+        x = stack.pop(0)
+        if x.is_dir():
+            if x.is_symlink() and os.readlink(x).startswith("../"):
+                yield Path(x)
+            else:
+                stack += os.scandir(x)
+
+
+def main() -> None:
+    allrepos = list(sorted(Path("/@/plugins/nvim/all").iterdir()))
+    linked = list(collect_symlinks(Path("/@/plugins/nvim/lazy")))
+    linknames = set(x.name for x in linked)
+    unused = [x for x in allrepos if x.name not in linknames]
+
+    tmp = Path("/@/plugins/nvim/unused")
+    tmp.mkdir(parents=True, exist_ok=True)
+    for x in unused:
+        dst = tmp / x.name
+        dst.symlink_to(x)
+
+
+if __name__ == "__main__":
+    main()
