@@ -109,3 +109,6 @@
 [submodule "nvim/all/plantuml-previewer.vim"]
 	path = nvim/all/plantuml-previewer.vim
 	url = https://github.com/weirongxu/plantuml-previewer.vim
+[submodule "nvim/all/surround.nvim"]
+	path = nvim/all/surround.nvim
+	url = https://github.com/ur4ltz/surround.nvim
