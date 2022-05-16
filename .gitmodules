@@ -112,3 +112,36 @@
 [submodule "nvim/all/surround.nvim"]
 	path = nvim/all/surround.nvim
 	url = https://github.com/ur4ltz/surround.nvim
+[submodule "nvim/all/leap.nvim"]
+	path = nvim/all/leap.nvim
+	url = https://github.com/ggandor/leap.nvim
+[submodule "nvim/all/vim-repeat"]
+	path = nvim/all/vim-repeat
+	url = https://github.com/tpope/vim-repeat
+[submodule "nvim/all/nvim-autopairs"]
+	path = nvim/all/nvim-autopairs
+	url = https://github.com/windwp/nvim-autopairs
+[submodule "nvim/all/nvim-ts-rainbow"]
+	path = nvim/all/nvim-ts-rainbow
+	url = https://github.com/p00f/nvim-ts-rainbow
+[submodule "nvim/all/symbols-outline.nvim"]
+	path = nvim/all/symbols-outline.nvim
+	url = https://github.com/simrat39/symbols-outline.nvim
+[submodule "nvim/all/vim-matchup"]
+	path = nvim/all/vim-matchup
+	url = https://github.com/andymass/vim-matchup
+[submodule "nvim/all/spellsitter.nvim"]
+	path = nvim/all/spellsitter.nvim
+	url = https://github.com/lewis6991/spellsitter.nvim
+[submodule "nvim/all/undotree"]
+	path = nvim/all/undotree
+	url = https://github.com/mbbill/undotree
+[submodule "nvim/all/vim-visual-multi"]
+	path = nvim/all/vim-visual-multi
+	url = https://github.com/mg979/vim-visual-multi
+[submodule "nvim/all/dressing.nvim"]
+	path = nvim/all/dressing.nvim
+	url = https://github.com/stevearc/dressing.nvim
+[submodule "nvim/all/legendary.nvim"]
+	path = nvim/all/legendary.nvim
+	url = https://github.com/mrjones2014/legendary.nvim
