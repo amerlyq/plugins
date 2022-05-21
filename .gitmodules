@@ -145,3 +145,12 @@
 [submodule "nvim/all/legendary.nvim"]
 	path = nvim/all/legendary.nvim
 	url = https://github.com/mrjones2014/legendary.nvim
+[submodule "nvim/all/vim-easy-align"]
+	path = nvim/all/vim-easy-align
+	url = https://github.com/junegunn/vim-easy-align
+[submodule "nvim/all/vim-highlighter"]
+	path = nvim/all/vim-highlighter
+	url = https://github.com/azabiong/vim-highlighter
+[submodule "nvim/all/cybu.nvim"]
+	path = nvim/all/cybu.nvim
+	url = https://github.com/ghillb/cybu.nvim

@@ -21,6 +21,7 @@ def collect_symlinks(root: Path | os.DirEntry) -> Iterator[Path]:
 def main() -> None:
     allrepos = list(sorted(Path("/@/plugins/nvim/all").iterdir()))
     linked = list(collect_symlinks(Path("/@/plugins/nvim/lazy")))
+    linked += collect_symlinks(Path("/@/plugins/nvim/preload"))
     linknames = set(x.name for x in linked)
     unused = [x for x in allrepos if x.name not in linknames]
 
