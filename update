@@ -1,7 +1,3 @@
 #!/usr/bin/env bash
 set -o errexit -o errtrace -o noclobber -o noglob -o nounset -o pipefail
-exec git submodule update --init --remote --jobs=5 --recursive --single-branch --depth=1 --recommend-shallow --
-
-#%MAINT::
-# :helptags ALL
-# :TSUpdate
+git submodule update --init --remote --jobs=5 --recursive --single-branch --depth=1 --recommend-shallow --

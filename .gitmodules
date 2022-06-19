@@ -154,3 +154,15 @@
 [submodule "nvim/all/cybu.nvim"]
 	path = nvim/all/cybu.nvim
 	url = https://github.com/ghillb/cybu.nvim
+[submodule "ranger/ranger_devicons"]
+	path = ranger/ranger_devicons
+	url = https://github.com/alexanderjeurissen/ranger_devicons
+[submodule "nvim/all/vim-textobj-user"]
+	path = nvim/all/vim-textobj-user
+	url = https://github.com/kana/vim-textobj-user
+[submodule "nvim/all/switch.vim"]
+	path = nvim/all/switch.vim
+	url = https://github.com/AndrewRadev/switch.vim
+[submodule "nvim/all/vim-cool"]
+	path = nvim/all/vim-cool
+	url = https://github.com/romainl/vim-cool
