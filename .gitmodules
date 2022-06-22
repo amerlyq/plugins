@@ -166,3 +166,6 @@
 [submodule "nvim/all/vim-cool"]
 	path = nvim/all/vim-cool
 	url = https://github.com/romainl/vim-cool
+[submodule "nvim/all/nvim-bqf"]
+	path = nvim/all/nvim-bqf
+	url = https://github.com/kevinhwang91/nvim-bqf
