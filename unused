@@ -12,7 +12,8 @@ def collect_symlinks(root: Path | os.DirEntry) -> Iterator[Path]:
     while stack:
         x = stack.pop(0)
         if x.is_dir():
-            if x.is_symlink() and os.readlink(x).startswith("../"):
+            if x.is_symlink():
+                assert os.readlink(x).startswith("../"), (x, os.readlink(x))
                 yield Path(x)
             else:
                 stack += os.scandir(x)
