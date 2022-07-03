@@ -109,6 +109,7 @@
 [submodule "nvim/all/plantuml-previewer.vim"]
 	path = nvim/all/plantuml-previewer.vim
 	url = https://github.com/weirongxu/plantuml-previewer.vim
+	ignore = untracked
 [submodule "nvim/all/surround.nvim"]
 	path = nvim/all/surround.nvim
 	url = https://github.com/ur4ltz/surround.nvim
@@ -121,12 +122,14 @@
 [submodule "nvim/all/nvim-autopairs"]
 	path = nvim/all/nvim-autopairs
 	url = https://github.com/windwp/nvim-autopairs
+	ignore = untracked
 [submodule "nvim/all/nvim-ts-rainbow"]
 	path = nvim/all/nvim-ts-rainbow
 	url = https://github.com/p00f/nvim-ts-rainbow
 [submodule "nvim/all/symbols-outline.nvim"]
 	path = nvim/all/symbols-outline.nvim
 	url = https://github.com/simrat39/symbols-outline.nvim
+	ignore = untracked
 [submodule "nvim/all/vim-matchup"]
 	path = nvim/all/vim-matchup
 	url = https://github.com/andymass/vim-matchup
@@ -172,12 +175,14 @@
 [submodule "nvim/all/vim-asterisk"]
 	path = nvim/all/vim-asterisk
 	url = https://github.com/haya14busa/vim-asterisk
+	ignore = untracked
 [submodule "nvim/all/vim-speeddating"]
 	path = nvim/all/vim-speeddating
 	url = https://github.com/tpope/vim-speeddating
 [submodule "nvim/all/vim-altr"]
 	path = nvim/all/vim-altr
 	url = https://github.com/kana/vim-altr
+	ignore = untracked
 [submodule "nvim/all/fish.vim"]
 	path = nvim/all/fish.vim
 	url = https://github.com/nickeb96/fish.vim
