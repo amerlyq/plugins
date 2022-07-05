@@ -186,3 +186,6 @@
 [submodule "nvim/all/fish.vim"]
 	path = nvim/all/fish.vim
 	url = https://github.com/nickeb96/fish.vim
+[submodule "nvim/all/conjure"]
+	path = nvim/all/conjure
+	url = https://github.com/Olical/conjure
