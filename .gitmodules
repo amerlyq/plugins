@@ -192,3 +192,6 @@
 [submodule "lisp/asdf"]
 	path = lisp/asdf
 	url = https://github.com/fare/asdf
+[submodule "nvim/all/vlime"]
+	path = nvim/all/vlime
+	url = https://github.com/vlime/vlime
