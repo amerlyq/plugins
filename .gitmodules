@@ -195,3 +195,30 @@
 [submodule "nvim/all/vlime"]
 	path = nvim/all/vlime
 	url = https://github.com/vlime/vlime
+[submodule "zsh/zsh-syntax-highlighting"]
+	path = zsh/zsh-syntax-highlighting
+	url = https://github.com/zsh-users/zsh-syntax-highlighting
+[submodule "zsh/zsh-completions"]
+	path = zsh/zsh-completions
+	url = https://github.com/zsh-users/zsh-completions
+[submodule "zsh/zsh-autosuggestions"]
+	path = zsh/zsh-autosuggestions
+	url = https://github.com/zsh-users/zsh-autosuggestions
+[submodule "zsh/zsh-history-substring-search"]
+	path = zsh/zsh-history-substring-search
+	url = https://github.com/zsh-users/zsh-history-substring-search
+[submodule "zsh/zsh-async"]
+	path = zsh/zsh-async
+	url = https://github.com/mafredri/zsh-async
+[submodule "zsh/alias-tips"]
+	path = zsh/alias-tips
+	url = https://github.com/djui/alias-tips
+[submodule "zsh/zsh-autopair"]
+	path = zsh/zsh-autopair
+	url = https://github.com/hlissner/zsh-autopair
+[submodule "nvim/all/tagbar"]
+	path = nvim/all/tagbar
+	url = https://github.com/preservim/tagbar
+[submodule "nvim/all/nvim-surround"]
+	path = nvim/all/nvim-surround
+	url = https://github.com/kylechui/nvim-surround

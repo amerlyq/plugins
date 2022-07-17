@@ -1,3 +1,4 @@
 #!/usr/bin/env bash
 set -o errexit -o errtrace -o noclobber -o noglob -o nounset -o pipefail
+# ALT: add "shallow=True" to each mod in .gitmodules
 git submodule update --init --remote --jobs=5 --recursive --single-branch --depth=1 --recommend-shallow --
