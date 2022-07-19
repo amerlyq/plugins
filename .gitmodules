@@ -222,3 +222,12 @@
 [submodule "nvim/all/nvim-surround"]
 	path = nvim/all/nvim-surround
 	url = https://github.com/kylechui/nvim-surround
+[submodule "nvim/all/keymap-amend.nvim"]
+	path = nvim/all/keymap-amend.nvim
+	url = https://github.com/anuvyklack/keymap-amend.nvim
+[submodule "nvim/all/pretty-fold.nvim"]
+	path = nvim/all/pretty-fold.nvim
+	url = https://github.com/anuvyklack/pretty-fold.nvim
+[submodule "nvim/all/vim-foldsearch"]
+	path = nvim/all/vim-foldsearch
+	url = https://github.com/embear/vim-foldsearch
