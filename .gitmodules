@@ -231,3 +231,6 @@
 [submodule "nvim/all/vim-foldsearch"]
 	path = nvim/all/vim-foldsearch
 	url = https://github.com/embear/vim-foldsearch
+[submodule "nvim/all/vim-fetch"]
+	path = nvim/all/vim-fetch
+	url = https://github.com/wsdjeg/vim-fetch
