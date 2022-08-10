@@ -237,3 +237,6 @@
 [submodule "nvim/all/vim-table-mode"]
 	path = nvim/all/vim-table-mode
 	url = https://github.com/dhruvasagar/vim-table-mode
+[submodule "spacemacs"]
+	path = spacemacs
+	url = https://github.com/syl20bnr/spacemacs
