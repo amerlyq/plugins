@@ -1,7 +1,7 @@
 #!/usr/bin/env bash
 set -o errexit -o errtrace -o noclobber -o noglob -o nounset -o pipefail
 
-make -C ./nvim/all/telescope-fzf-native.nvim/
+make -B -C ./nvim/all/telescope-fzf-native.nvim/
 
 # nvim -c 'helptags ALL' -c TSUpdate
 #%MAINT::
