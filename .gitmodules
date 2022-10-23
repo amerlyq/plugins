@@ -243,3 +243,6 @@
 [submodule "nvim/all/fold-preview.nvim"]
 	path = nvim/all/fold-preview.nvim
 	url = https://github.com/anuvyklack/fold-preview.nvim
+[submodule "nvim/all/parinfer-rust"]
+	path = nvim/all/parinfer-rust
+	url = https://github.com/eraserhd/parinfer-rust
