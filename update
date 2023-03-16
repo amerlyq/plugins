@@ -6,6 +6,7 @@ set -o errexit -o errtrace -o noclobber -o noglob -o nounset -o pipefail
 #   -- BET wait for plugin author to do it himself (prezto, LuaSnip, switch.vim)
 
 # ALT: add "shallow=True" to each mod in .gitmodules
+# WARN:(--remote --single-branch): not supported by OLD !git=2.25.1
 git submodule update --init --remote --jobs=5 --single-branch --depth=1 --recommend-shallow --
 
 ## DISABLED: don't reset branches to .gitmodules SHA1
