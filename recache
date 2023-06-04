@@ -8,3 +8,13 @@ make -B -C ./nvim/all/telescope-fzf-native.nvim/
 #%MAINT::
 # :helptags ALL
 # :TSUpdate
+
+
+# HACK: ignore generated :/doc/tags in each submodule state
+git submodule --quiet foreach '
+  f=$toplevel/.git/modules/$name/info/exclude;
+  fign(){ if ! grep -qxF "$1" "$f"; then echo "$1" >> "$f"; echo "[$f] $1"; fi; };
+  for x in doc/tags lisp/system-index.txt; do [[ -f $x ]] && fign "/$x"; done;
+  [[ ${name%%/*} == zsh ]] && fign "/*.zwc";
+  true
+'
