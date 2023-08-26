@@ -252,3 +252,6 @@
 [submodule "nvim/all/clangd_extensions.nvim"]
 	path = nvim/all/clangd_extensions.nvim
 	url = https://github.com/p00f/clangd_extensions.nvim
+[submodule "nvim/all/mini.nvim"]
+	path = nvim/all/mini.nvim
+	url = https://github.com/echasnovski/mini.nvim
