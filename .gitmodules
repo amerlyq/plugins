@@ -255,3 +255,6 @@
 [submodule "nvim/all/mini.nvim"]
 	path = nvim/all/mini.nvim
 	url = https://github.com/echasnovski/mini.nvim
+[submodule "nvim/all/substitute.nvim"]
+	path = nvim/all/substitute.nvim
+	url = https://github.com/gbprod/substitute.nvim
