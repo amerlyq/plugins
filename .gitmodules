@@ -258,3 +258,12 @@
 [submodule "nvim/all/substitute.nvim"]
 	path = nvim/all/substitute.nvim
 	url = https://github.com/gbprod/substitute.nvim
+[submodule "nvim/all/splitjoin.vim"]
+	path = nvim/all/splitjoin.vim
+	url = https://github.com/AndrewRadev/splitjoin.vim
+[submodule "nvim/all/vim-suda"]
+	path = nvim/all/vim-suda
+	url = https://github.com/lambdalisue/vim-suda
+[submodule "nvim/all/hex.nvim"]
+	path = nvim/all/hex.nvim
+	url = https://github.com/RaafatTurki/hex.nvim
