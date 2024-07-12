@@ -288,3 +288,9 @@
 [submodule "nvim/all/sideways.vim"]
 	path = nvim/all/sideways.vim
 	url = https://github.com/AndrewRadev/sideways.vim
+[submodule "nvim/all/quickfix-reflector.vim"]
+	path = nvim/all/quickfix-reflector.vim
+	url = https://github.com/stefandtw/quickfix-reflector.vim
+[submodule "nvim/all/replacer.nvim"]
+	path = nvim/all/replacer.nvim
+	url = https://github.com/gabrielpoca/replacer.nvim
