@@ -1,14 +1,15 @@
-#!/usr/bin/env -S python -B
-#%SUMMARY: ⌇⡢⡺⢕⣔
-#%USAGE: $ ./$0
+#!/usr/bin/env -S python3 -B
+# %SUMMARY: ⌇⡢⡺⢕⣔
+# %USAGE: $ ./$0
 
 import os
+from os.path import relpath
 from pathlib import Path
 from typing import Iterator
 
 
-def collect_symlinks(root: Path | os.DirEntry) -> Iterator[Path]:
-    stack: list[os.DirEntry | Path] = [root]
+def collect_symlinks(*roots: str | Path) -> Iterator[Path]:
+    stack = [x for r in roots for x in os.scandir(r)]
     while stack:
         x = stack.pop(0)
         if x.is_dir():
@@ -20,14 +21,16 @@ def collect_symlinks(root: Path | os.DirEntry) -> Iterator[Path]:
 
 
 def main() -> None:
-    allrepos = list(sorted(Path("/@/plugins/nvim/all").iterdir()))
-    linked = list(collect_symlinks(Path("/@/plugins/nvim/lazy")))
-    linked += collect_symlinks(Path("/@/plugins/nvim/preload"))
+    dnvim = Path(__import__("sys").argv[0]).parent / "nvim"
+    allrepos = list(sorted((dnvim / "all").iterdir()))
+    linked = list(collect_symlinks(dnvim / "lazy"))
+    linked += collect_symlinks(dnvim / "preload")
     linknames = set(x.name for x in linked)
-    unused = [x for x in allrepos if x.name not in linknames]
 
-    tmp = Path("/@/plugins/nvim/unused")
+    tmp = Path(dnvim / "unused")
     tmp.mkdir(parents=True, exist_ok=True)
+
+    unused = [Path(relpath(x, str(tmp))) for x in allrepos if x.name not in linknames]
     for x in unused:
         dst = tmp / x.name
         dst.symlink_to(x)
