@@ -294,3 +294,6 @@
 [submodule "nvim/all/replacer.nvim"]
 	path = nvim/all/replacer.nvim
 	url = https://github.com/gabrielpoca/replacer.nvim
+[submodule "nvim/all/nvim-web-devicons"]
+	path = nvim/all/nvim-web-devicons
+	url = https://github.com/nvim-tree/nvim-web-devicons
