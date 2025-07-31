@@ -19,3 +19,5 @@ git submodule --quiet foreach '
   [[ ${name%%/*} == zsh ]] && fign "/*.zwc";
   true
 '
+
+make -C zsh/ble.sh

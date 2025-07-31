@@ -297,3 +297,6 @@
 [submodule "nvim/all/nvim-web-devicons"]
 	path = nvim/all/nvim-web-devicons
 	url = https://github.com/nvim-tree/nvim-web-devicons
+[submodule "zsh/ble.sh"]
+	path = zsh/ble.sh
+	url = https://github.com/akinomyoga/ble.sh
