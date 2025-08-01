@@ -34,9 +34,11 @@
 [submodule "nvim/all/nvim-treesitter"]
 	path = nvim/all/nvim-treesitter
 	url = https://github.com/nvim-treesitter/nvim-treesitter
+	branch = main
 [submodule "nvim/all/nvim-treesitter-textobjects"]
 	path = nvim/all/nvim-treesitter-textobjects
-	url = https://github.com/nvim-treesitter/nvim-treesitter-textobjects
+	url = https://github.com/nvim-treesitter/nvim-treesitter-textobjects/
+	branch = main
 [submodule "nvim/all/playground"]
 	path = nvim/all/playground
 	url = https://github.com/nvim-treesitter/playground
@@ -123,9 +125,6 @@
 	path = nvim/all/nvim-autopairs
 	url = https://github.com/windwp/nvim-autopairs
 	ignore = untracked
-[submodule "nvim/all/nvim-ts-rainbow"]
-	path = nvim/all/nvim-ts-rainbow
-	url = https://github.com/p00f/nvim-ts-rainbow
 [submodule "nvim/all/symbols-outline.nvim"]
 	path = nvim/all/symbols-outline.nvim
 	url = https://github.com/simrat39/symbols-outline.nvim
@@ -300,3 +299,6 @@
 [submodule "zsh/ble.sh"]
 	path = zsh/ble.sh
 	url = https://github.com/akinomyoga/ble.sh
+[submodule "nvim/all/rainbow-delimiters.nvim"]
+	path = nvim/all/rainbow-delimiters.nvim
+	url = https://github.com/HiPhish/rainbow-delimiters.nvim
