@@ -302,3 +302,6 @@
 [submodule "nvim/all/rainbow-delimiters.nvim"]
 	path = nvim/all/rainbow-delimiters.nvim
 	url = https://github.com/HiPhish/rainbow-delimiters.nvim
+[submodule "zsh/bat-extras"]
+	path = zsh/bat-extras
+	url = https://github.com/eth-p/bat-extras/
