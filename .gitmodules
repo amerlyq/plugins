@@ -34,11 +34,9 @@
 [submodule "nvim/all/nvim-treesitter"]
 	path = nvim/all/nvim-treesitter
 	url = https://github.com/nvim-treesitter/nvim-treesitter
-	branch = main
 [submodule "nvim/all/nvim-treesitter-textobjects"]
 	path = nvim/all/nvim-treesitter-textobjects
 	url = https://github.com/nvim-treesitter/nvim-treesitter-textobjects/
-	branch = main
 [submodule "nvim/all/playground"]
 	path = nvim/all/playground
 	url = https://github.com/nvim-treesitter/playground
