@@ -4,14 +4,17 @@ set -o errexit -o errtrace -o noclobber -o noglob -o nounset -o pipefail
 make -B -C ./nvim/all/telescope-fzf-native.nvim/
 (cd ./nvim/all/parinfer-rust && cargo build --release)
 make -B -C ./nvim/all/LuaSnip/ install_jsregexp
+make -C zsh/ble.sh
 
-nvim -c 'helptags ALL' -c TSUpdate
+nvim --headless +'helptags ALL' +qa
 #%MAINT::
 # :helptags ALL
 # :TSUpdate
 
 
 # HACK: ignore generated :/doc/tags in each submodule state
+# FAIL: hardcoded /bin/sh on ubuntu resolves to !dash,
+#   and we can't use "bash -c" COS vars $toplevel and $name become empty
 git submodule --quiet foreach '
   f=$toplevel/.git/modules/$name/info/exclude;
   fign(){ if ! grep -qxF "$1" "$f"; then echo "$1" >> "$f"; echo "[$f] $1"; fi; };
@@ -19,5 +22,3 @@ git submodule --quiet foreach '
   [[ ${name%%/*} == zsh ]] && fign "/*.zwc";
   true
 '
-
-make -C zsh/ble.sh
