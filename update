@@ -5,9 +5,15 @@ set -o errexit -o errtrace -o noclobber -o noglob -o nounset -o pipefail
 # FAIL:(--recursive): shouldn't update nested deps myself
 #   -- BET wait for plugin author to do it himself (prezto, LuaSnip, switch.vim)
 
+argv=( --init --jobs=5 --depth=1 --recommend-shallow )
+
+## WF: only when you want upgrade::
+# WARN:(--remote --single-branch):BAD: leaves submodules empty
+#   ALSO: not supported by OLD !git=2.25.1
+[[ " $* " =~ " -u " ]] && argv+=( --remote )
+
 # ALT: add "shallow=True" to each mod in .gitmodules
-# WARN:(--remote --single-branch): not supported by OLD !git=2.25.1
-git submodule update --init --remote --jobs=5 --single-branch --depth=1 --recommend-shallow --
+git submodule update "${argv[@]}" --
 
 ## DISABLED: don't reset branches to .gitmodules SHA1
 # git submodule update --recursive

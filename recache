@@ -5,7 +5,7 @@ make -B -C ./nvim/all/telescope-fzf-native.nvim/
 (cd ./nvim/all/parinfer-rust && cargo build --release)
 make -B -C ./nvim/all/LuaSnip/ install_jsregexp
 
-# nvim -c 'helptags ALL' -c TSUpdate
+nvim -c 'helptags ALL' -c TSUpdate
 #%MAINT::
 # :helptags ALL
 # :TSUpdate
