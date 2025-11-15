@@ -305,3 +305,6 @@
 [submodule "zsh/bat-extras"]
 	path = zsh/bat-extras
 	url = https://github.com/eth-p/bat-extras/
+[submodule "ranger/Ranger-Linemode"]
+	path = ranger/Ranger-Linemode
+	url = https://github.com/randomcodepanda/Ranger-Linemode
