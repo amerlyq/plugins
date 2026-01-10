@@ -308,3 +308,6 @@
 [submodule "ranger/Ranger-Linemode"]
 	path = ranger/Ranger-Linemode
 	url = https://github.com/randomcodepanda/Ranger-Linemode
+[submodule "nvim/all/quicker.nvim"]
+	path = nvim/all/quicker.nvim
+	url = https://github.com/stevearc/quicker.nvim
