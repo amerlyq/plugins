@@ -311,3 +311,6 @@
 [submodule "nvim/all/quicker.nvim"]
 	path = nvim/all/quicker.nvim
 	url = https://github.com/stevearc/quicker.nvim
+[submodule "nvim/all/opencode.nvim"]
+	path = nvim/all/opencode.nvim
+	url = https://github.com/sudo-tee/opencode.nvim
