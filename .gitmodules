@@ -317,3 +317,12 @@
 [submodule "nvim/all/nvim-lint"]
 	path = nvim/all/nvim-lint
 	url = https://github.com/mfussenegger/nvim-lint
+[submodule "tmux/tmux-fingers"]
+	path = tmux/tmux-fingers
+	url = https://github.com/Morantron/tmux-fingers
+[submodule "tmux/tmux-open"]
+	path = tmux/tmux-open
+	url = https://github.com/tmux-plugins/tmux-open
+[submodule "tmux/tmux-mode-indicator"]
+	path = tmux/tmux-mode-indicator
+	url = https://github.com/MunifTanjim/tmux-mode-indicator
