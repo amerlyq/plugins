@@ -326,3 +326,9 @@
 [submodule "tmux/tmux-mode-indicator"]
 	path = tmux/tmux-mode-indicator
 	url = https://github.com/MunifTanjim/tmux-mode-indicator
+[submodule "difft.nvim"]
+	path = nvim/all/difft.nvim
+	url = https://github.com/ahkohd/difft.nvim
+[submodule "diffmantic.nvim"]
+	path = nvim/all/diffmantic.nvim
+	url = https://github.com/HarshK97/diffmantic.nvim
