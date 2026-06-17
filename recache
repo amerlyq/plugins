@@ -1,16 +1,10 @@
 #!/usr/bin/env bash
 set -o errexit -o errtrace -o noclobber -o noglob -o nounset -o pipefail
 
-make -B -C ./nvim/all/telescope-fzf-native.nvim/
-(cd ./nvim/all/parinfer-rust && cargo build --release)
-make -B -C ./nvim/all/LuaSnip/ install_jsregexp
-make -C zsh/ble.sh
-
 nvim --headless +'helptags ALL' +qa
 #%MAINT::
 # :helptags ALL
 # :TSUpdate
-
 
 # HACK: ignore generated :/doc/tags in each submodule state
 # FAIL: hardcoded /bin/sh on ubuntu resolves to !dash,
@@ -22,3 +16,8 @@ git submodule --quiet foreach '
   [[ ${name%%/*} == zsh ]] && fign "/*.zwc";
   true
 '
+
+make -B -C ./nvim/all/telescope-fzf-native.nvim/
+(cd ./nvim/all/parinfer-rust && cargo build --release)
+make -B -C ./nvim/all/LuaSnip/ install_jsregexp
+make -C zsh/ble.sh

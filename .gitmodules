@@ -117,7 +117,7 @@
 	url = https://github.com/ur4ltz/surround.nvim
 [submodule "nvim/all/leap.nvim"]
 	path = nvim/all/leap.nvim
-	url = https://github.com/ggandor/leap.nvim
+	url = https://codeberg.org/andyg/leap.nvim
 [submodule "nvim/all/vim-repeat"]
 	path = nvim/all/vim-repeat
 	url = https://github.com/tpope/vim-repeat
