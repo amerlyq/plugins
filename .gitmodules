@@ -353,3 +353,6 @@
 [submodule "nvim/all/basilisk.nvim"]
 	path = nvim/all/basilisk.nvim
 	url = https://github.com/Nimblesite/basilisk.nvim
+[submodule "nvim/all/nvim-hlslens"]
+	path = nvim/all/nvim-hlslens
+	url = https://github.com/kevinhwang91/nvim-hlslens
