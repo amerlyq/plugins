@@ -2,7 +2,7 @@
 set -o errexit -o errtrace -o noclobber -o noglob -o nounset -o pipefail
 
 nvim --headless +'helptags ALL' +qa
-#%MAINT::
+#%MAINT:: (after all plugins are lazy-loaded)
 # :helptags ALL
 # :TSUpdate
 

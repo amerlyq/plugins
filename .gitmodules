@@ -332,3 +332,24 @@
 [submodule "diffmantic.nvim"]
 	path = nvim/all/diffmantic.nvim
 	url = https://github.com/HarshK97/diffmantic.nvim
+[submodule "nvim/all/tiny-inline-diagnostic.nvim"]
+	path = nvim/all/tiny-inline-diagnostic.nvim
+	url = https://github.com/rachartier/tiny-inline-diagnostic.nvim
+[submodule "nvim/all/neotest-python"]
+	path = nvim/all/neotest-python
+	url = https://github.com/nvim-neotest/neotest-python
+[submodule "nvim/all/neotest"]
+	path = nvim/all/neotest
+	url = https://github.com/nvim-neotest/neotest
+[submodule "nvim/all/nvim-nio"]
+	path = nvim/all/nvim-nio
+	url = https://github.com/nvim-neotest/nvim-nio
+[submodule "nvim/all/nvim-dap"]
+	path = nvim/all/nvim-dap
+	url = https://github.com/mfussenegger/nvim-dap
+[submodule "nvim/all/nvim-dap-python"]
+	path = nvim/all/nvim-dap-python
+	url = https://github.com/mfussenegger/nvim-dap-python
+[submodule "nvim/all/basilisk.nvim"]
+	path = nvim/all/basilisk.nvim
+	url = https://github.com/Nimblesite/basilisk.nvim
