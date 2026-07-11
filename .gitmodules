@@ -104,7 +104,8 @@
 	url = https://github.com/folke/tokyonight.nvim
 [submodule "nvim/all/nvim-colorizer.lua"]
 	path = nvim/all/nvim-colorizer.lua
-	url = https://github.com/norcalli/nvim-colorizer.lua
+	# OLD: url = https://github.com/norcalli/nvim-colorizer.lua
+	url = https://github.com/catgoose/nvim-colorizer.lua
 [submodule "nvim/all/plantuml-syntax"]
 	path = nvim/all/plantuml-syntax
 	url = https://github.com/aklt/plantuml-syntax
