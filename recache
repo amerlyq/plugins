@@ -21,3 +21,5 @@ make -B -C ./nvim/all/telescope-fzf-native.nvim/
 (cd ./nvim/all/parinfer-rust && cargo build --release)
 make -B -C ./nvim/all/LuaSnip/ install_jsregexp
 make -C zsh/ble.sh
+
+env -C ./nvim/all/blink.cmp/ -- cargo build --release

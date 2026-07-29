@@ -357,3 +357,15 @@
 [submodule "nvim/all/nvim-hlslens"]
 	path = nvim/all/nvim-hlslens
 	url = https://github.com/kevinhwang91/nvim-hlslens
+[submodule "nvim/all/codecompanion.nvim"]
+	path = nvim/all/codecompanion.nvim
+	url = https://github.com/olimorris/codecompanion.nvim
+[submodule "nvim/all/minuet-ai.nvim"]
+	path = nvim/all/minuet-ai.nvim
+	url = https://github.com/milanglacier/minuet-ai.nvim
+[submodule "nvim/all/blink.cmp"]
+	path = nvim/all/blink.cmp
+	url = https://github.com/saghen/blink.cmp
+[submodule "nvim/all/blink.lib"]
+	path = nvim/all/blink.lib
+	url = https://github.com/saghen/blink.lib
