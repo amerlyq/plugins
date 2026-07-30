@@ -22,4 +22,11 @@ make -B -C ./nvim/all/telescope-fzf-native.nvim/
 make -B -C ./nvim/all/LuaSnip/ install_jsregexp
 make -C zsh/ble.sh
 
-env -C ./nvim/all/blink.cmp/ -- cargo build --release
+## FAIL: no reliable way to exit after any error, "-cqa" is triggered before lazy,
+#   and LazyPluginsLoaded isn't triggered at all if error occurs
+#   ALT: some hard trigger -c "lua vim.defer_fn(function() pcall(vim.cmd, 'qa!') end, 3000)"
+# WKRND: will exit if all is fine, but will freeze on error, so <C-c> it
+# ALT:BAD:(not all actions done): env -C ./nvim/all/blink.cmp/ -- cargo build --release
+# ALT:BAD:(monstrosity): /d/airy/nvim/lua/plug/#/blinkcmp_build.lua
+env -C ./nvim/all/blink.cmp/ BLINKCMP_REBUILD=1 nvim --headless \
+  -c "autocmd User LazyPluginsLoaded ++once lua vim.cmd('qa')" 2>&1
