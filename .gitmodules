@@ -369,3 +369,6 @@
 [submodule "nvim/all/blink.lib"]
 	path = nvim/all/blink.lib
 	url = https://github.com/saghen/blink.lib
+[submodule "zsh/gitstatus"]
+	path = zsh/gitstatus
+	url = https://github.com/romkatv/gitstatus
