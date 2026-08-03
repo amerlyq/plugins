@@ -372,3 +372,6 @@
 [submodule "zsh/gitstatus"]
 	path = zsh/gitstatus
 	url = https://github.com/romkatv/gitstatus
+[submodule "zsh/zsh-defer"]
+	path = zsh/zsh-defer
+	url = https://github.com/romkatv/zsh-defer
