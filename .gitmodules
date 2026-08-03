@@ -375,3 +375,12 @@
 [submodule "zsh/zsh-defer"]
 	path = zsh/zsh-defer
 	url = https://github.com/romkatv/zsh-defer
+[submodule "nvim/all/smart-translate.nvim"]
+	path = nvim/all/smart-translate.nvim
+	url = https://github.com/askfiy/smart-translate.nvim
+[submodule "nvim/all/http.nvim"]
+	path = nvim/all/http.nvim
+	url = https://github.com/askfiy/http.nvim
+[submodule "nvim/all/blink-cmp-dictionary"]
+	path = nvim/all/blink-cmp-dictionary
+	url = https://github.com/Kaiser-Yang/blink-cmp-dictionary
