@@ -12,8 +12,8 @@ nvim --headless +'helptags ALL' +qa
 git submodule --quiet foreach '
   f=$toplevel/.git/modules/$name/info/exclude;
   fign(){ if ! grep -qxF "$1" "$f"; then echo "$1" >> "$f"; echo "[$f] $1"; fi; };
-  for x in doc/tags lisp/system-index.txt; do [[ -f $x ]] && fign "/$x"; done;
-  [[ ${name%%/*} == zsh ]] && fign "/*.zwc";
+  for x in doc/tags lisp/system-index.txt; do [ -f "$x" ] && fign "/$x"; done;
+  [ "${name%%/*}" = zsh ] && fign "/*.zwc";
   true
 '
 
@@ -43,10 +43,14 @@ zsh -euc '
   setopt extendedglob
   srcs=( /d/{airy,plugins}/zsh/**/*.zsh~*/[#_]*/*(N) )
   autoload -Uz zrecompile
-  for f in $srcs; do zrecompile -q -p $f --; done
+  for f in $srcs; do zrecompile -p $f --; done
 
+  _compdump="${ZDOTDIR:-$HOME}/.zcompdump"
+  rm -f "$_compdump"
   autoload -Uz compinit
-  compinit -d "${ZDOTDIR:-$HOME}/.zcompdump"
-  zrecompile -q -p ${ZDOTDIR:-$HOME}/.zshrc --
-  zrecompile -q -p ${ZDOTDIR:-$HOME}/.zcompdump --
+  compinit -d "$_compdump"
+  zrecompile -p ${ZDOTDIR:-$HOME}/.zshrc --
+  zrecompile -p "$_compdump" --
 '
+
+echo "DONE"
