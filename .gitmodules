@@ -387,3 +387,6 @@
 [submodule "ranger/ranger-archives"]
 	path = ranger/ranger-archives
 	url = https://github.com/maximtrp/ranger-archives.git
+[submodule "zsh/fzf-tab"]
+	path = zsh/fzf-tab
+	url = https://github.com/aloxaf/fzf-tab
