@@ -30,3 +30,23 @@ make -C zsh/ble.sh
 # ALT:BAD:(monstrosity): /d/airy/nvim/lua/plug/#/blinkcmp_build.lua
 env -C ./nvim/all/blink.cmp/ BLINKCMP_REBUILD=1 nvim --headless \
   -c "autocmd User LazyPluginsLoaded ++once lua vim.cmd('qa')" 2>&1
+
+
+zsh -euc '
+  # set -eu -x
+  cd ./zsh/fzf-tab
+  source ./fzf-tab.plugin.zsh
+  build-fzf-tab-module
+'
+
+zsh -euc '
+  setopt extendedglob
+  srcs=( /d/{airy,plugins}/zsh/**/*.zsh~*/[#_]*/*(N) )
+  autoload -Uz zrecompile
+  for f in $srcs; do zrecompile -q -p $f --; done
+
+  autoload -Uz compinit
+  compinit -d "${ZDOTDIR:-$HOME}/.zcompdump"
+  zrecompile -q -p ${ZDOTDIR:-$HOME}/.zshrc --
+  zrecompile -q -p ${ZDOTDIR:-$HOME}/.zcompdump --
+'
