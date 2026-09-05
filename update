@@ -12,6 +12,8 @@ argv=( --init --jobs=5 --depth=1 --recommend-shallow )
 #   ALSO: not supported by OLD !git=2.25.1
 [[ " $* " =~ " -u " ]] && argv+=( --remote )
 
+git submodule init
+
 # ALT: add "shallow=True" to each mod in .gitmodules
 git submodule update "${argv[@]}" --
 
